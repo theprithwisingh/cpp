@@ -1,25 +1,3 @@
-/*
-#include <iostream>
-using namespace std;
-int main(){
-  int n;
-  cout<<"Enter the Number : ";
-  cin>>n;
-  int f = 0;  
-while(n>0){
-  for(int i = n; i <=n; i--)
-  {
-    cout<<i<<endl; 
-    if(i==1) {
-       cout<<i<<endl; 
-       break;
-    }
-  }
-//   n--;
-}
-return 0;
-}
-*/
 #include <iostream>
 using namespace std;
 
