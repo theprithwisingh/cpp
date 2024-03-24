@@ -13,10 +13,8 @@ int main() {
     for(int i = 0; i < r; i++) {
         for(int j = 0; j <= i; j++) {
             cout << number << " ";
-            // number++;
+            number++;
         }
         cout << endl;
     }
-    
-    return 0;
-}
+    return 0;}
