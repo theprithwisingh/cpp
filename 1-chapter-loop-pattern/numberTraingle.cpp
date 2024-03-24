@@ -9,12 +9,13 @@ int main() {
     int r;
     cout<<"enter the number rows :";
     cin>>r;
-    int number = 1;
+    int  num = 1;
     for(int i = 0; i < r; i++) {
         for(int j = 0; j <= i; j++) {
-            cout << number << " ";
-            number++;
+            cout << num << " ";
+             num++;
         }
-        cout << endl;
+        cout <<endl;
     }
-    return 0;}
+    return 0;
+    }

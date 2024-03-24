@@ -1,26 +1,15 @@
-#include<iostream>
-using namespace std;
+#include <iostream>
 
-int main()
-{
-	int i, j, k, rows;
-     
-    cout << "Enter Pattern Row = ";
-    cin >> rows;
-
-    cout << "Star Pattern\n"; 
-
-    for(i = 1; i <= rows; i++)
-    {
-    	for(j = 1; j <= rows - i; j++)
-		{
-            cout << " ";
+int main() {
+    for (int i = 0; i < 10; i++) {
+        for (int j = 0; j < 11; j++) {
+            if ((i == 0 && j % 3 != 0) || (i == 1 && j % 3 == 0) || (i - j == 2) || (i + j == 8))
+                std::cout << "*";
+            else
+                std::cout << " ";
         }
-        for(k = 1; k <= rows; k++)
-        {
-            cout << "*";
-        }
-        cout << "\n";
-    }		
- 	return 0;
+        std::cout << std::endl;
+    }
+
+    return 0;
 }
