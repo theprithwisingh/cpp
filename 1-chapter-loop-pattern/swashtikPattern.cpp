@@ -9,10 +9,6 @@
 // Include header file
 #include <iostream>
 using namespace std;
-/*
-  C++ Program
-  Display Wave Patterns
-*/
 class MyPattern
 {
     public:
@@ -52,10 +48,6 @@ class MyPattern
 int main()
 {
     MyPattern *task = new MyPattern();
-    // Test 
-    task->swastikaPattern(5);
-    task->swastikaPattern(7);
-    task->swastikaPattern(9);
     task->swastikaPattern(11);
     return 0;
 }
