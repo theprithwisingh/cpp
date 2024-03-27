@@ -55,7 +55,7 @@ int main(){
     }  
 }
 */ 
-
+/*
 #include<iostream>
 using namespace std;
 
@@ -89,3 +89,14 @@ int main(){
     }
     
 }
+*/
+#include<iostream>
+using namespace std;
+
+    int fun(int x = 2, bool y = true){
+      cout<<x<<"  "<<y;
+    }
+
+   int main(){
+   fun(3,1);
+   }
