@@ -13,7 +13,7 @@ int main(){
 
    //
    int x = 4;
-   int* p = &x;
+   int* p = &x;//This means that the address of X has been stored inside P.
    cout<<&x;
 
 }
