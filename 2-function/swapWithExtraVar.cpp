@@ -26,5 +26,4 @@ int main(){
     cin >> a >> b;
     swap(a, b);
     cout << a << "  " << b;
-    return 0;
 }
