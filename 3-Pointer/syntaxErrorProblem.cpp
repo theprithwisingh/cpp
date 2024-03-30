@@ -7,7 +7,7 @@ int main(){
     int y =9;
     int* p1 = &x, p2 = y;
     cout<<*p1 + p2;
-    */
+    
 
     
     // this is wrong
@@ -15,5 +15,5 @@ int main(){
     int y =9;
     int* p1 = &x, *p2 = y;
     cout<<*p1 + p2;
-    
+    */
 }
