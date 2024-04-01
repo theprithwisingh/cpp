@@ -1,16 +1,20 @@
 #include<iostream>
 using namespace std;
 int main(){
-    int arr[10];
-    for (int i = 0; i <=9; i++)
+    int n;//number of the students
+    cout<<"Enter the number of the students :";
+    cin>>n;
+    int marks[n];
+    cout<<"Enter the Marks of the students :" ;
+    for (int i = 0; i <=n-1; i++)
     {
-        cin>>arr[i];
+        cin>>marks[i];
     }
-    for (int i = 0; i <=9; i++)
+    for (int i = 0; i <=n-1; i++)
     {
-        if (arr[i]<35)
-        {
-            cout<<arr[i]<<"-";
+        if (marks[i]<35)
+        {  
+            cout<<marks[i]<<" "<<endl;
         }
         
     }
