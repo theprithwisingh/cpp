@@ -20,8 +20,7 @@ int main(){
     for (int i = 0; i <=n-1; i++)
     {
         if (arr[i]==x) flag = true;
-
     }
     if (flag==true) cout<<"element found";
-    else cout<<"not element found";  
+    else cout<<"404 not element found";  
 }

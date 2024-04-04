@@ -16,7 +16,5 @@ int main(){
         {  
             cout<<marks[i]<<" "<<endl;
         }
-        
     }
-    
 }
