@@ -7,11 +7,11 @@ int main(){
     // ptr = ptr + 1;
     // cout<<ptr<<endl;
 
-    bool flag = true;
-    bool* ptr = &flag;
-    cout<<ptr<<endl;
-    ptr++;
-    cout<<ptr<<endl;
+    // bool flag = true;
+    // bool* ptr = &flag;
+    // cout<<ptr<<endl;
+    // ptr++;
+    // cout<<ptr<<endl;
 
     // int x = 4;
     // int* ptr = &x;
