@@ -9,6 +9,6 @@ void swap(int &a, int &b){
 int main(){
     int a,b;
     cin>>a>>b;
-    swap(a,b);
+    swap(b,a);
     cout<<a<<" "<<b;
 }
