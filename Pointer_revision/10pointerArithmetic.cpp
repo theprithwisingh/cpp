@@ -7,6 +7,5 @@ cout<<*ptr<<endl;//4
 //*ptr++; warning
 //(*ptr)++; not giving warning
 *ptr = *ptr + 1;
-(*ptr)++;
 cout<<*ptr<<endl;//5
 }

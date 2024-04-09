@@ -6,7 +6,7 @@ int main(){
     int *ptr = &a;
     int b = ++(*ptr);
     //int b = ++(*ptr); also this right
-    cout<<a<<' '<<b;
+    cout<<a<<' '<<b; //16 16
 }
 */
 //post-increament
@@ -17,5 +17,5 @@ int main(){
     int *ptr = &a; 
     int b =(*ptr)++;
     //int b = ++(*ptr); also this right
-    cout<<a<<' '<<b;
+    cout<<a<<' '<<b;//16 15
 }

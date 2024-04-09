@@ -5,5 +5,5 @@ int main(){
   bool* ptr = &flag;
   cout<<ptr<<endl;//0x61ff0b
   ptr++;
-  cout<<ptr<<endl;
+  cout<<ptr<<endl;//0x61ff0c
 }
