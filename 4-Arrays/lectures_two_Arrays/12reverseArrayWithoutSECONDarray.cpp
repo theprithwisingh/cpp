@@ -15,7 +15,7 @@ int main(){
     v.push_back(4);
     v.push_back(5);
     v.push_back(6);
-    display(v);
+    display(v);//1 2 3 4 5 6
 
     int i = 0;
     int j = v.size()-1;
@@ -28,5 +28,16 @@ int main(){
       i++;
       j--;
     }
-    display(v);
+    display(v);//6 5 4 3 2 1
+
+        
+    for (int i=0, j= v.size()-1 ; i <= j; i++,j--)
+    {
+     int temp  = v[i];
+      v[i]=v[j];
+      v[j] = temp; 
+    }
+    display(v);//1 2 3 4 5 6
+
+    
 }
