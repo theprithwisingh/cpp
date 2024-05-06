@@ -2,7 +2,7 @@
 #include<vector>
 using namespace std;
 void change(vector<int>a){
-a[0]=100;
+a[0]=100;// first element of vector
 for (int i = 0; i < a.size(); i++)
  {
     cout<<a[i]<<" ";

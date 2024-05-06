@@ -1,9 +1,8 @@
- #include<iostream>
+#include<iostream>
 #include<vector>
 using namespace std;
 void display(vector<int>&a){
-for (int i = 0; i < a.size(); i++)
-{
+for (int i = 0; i < a.size(); i++){
     cout<<a[i]<<" ";
 }
 cout<<endl;
@@ -25,4 +24,6 @@ int main(){
       v2[i]=v1[v1.size()-1-i];
     }
     display(v2);
+
+ 
 }
