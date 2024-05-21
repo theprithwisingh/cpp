@@ -37,8 +37,26 @@ print("fruits name -> ",fruits)
 
 #a dictionary is a collection of key-value pairs. It is an unordered, mutable, and indexed data structure. Dictionaries are highly efficient for retrieving values when the key is known.
 
-my_dict ={
-    "name":"Prithwi",
-    "age":25,
-    "city":"chandauli"
-}
+# my_dict ={
+#     "name":"Prithwi",
+#     "age":25,
+#     "city":"chandauli"
+# }
+
+
+# original_list = [1, 2, 3, 4]
+# newList = original_list.append(100)
+# print('newList ->',newList)
+# print('original-list ->',original_list)
+
+
+#USING SLICING
+original_list = [1, 2, 3, 4]
+newList = original_list[:]  # Create a copy of the original list by #USING method SLICING
+#newList = original_list.copy(); Create a copy of the original list by #USING CPOY method
+print('newList ->',newList)
+print(original_list)
+
+# Create a list of squares for even numbers between 0 and 9
+squares = [x**2 for x in range(10) if x % 2 == 0]
+print(squares)  # Output: [0, 4, 16, 36, 64]
