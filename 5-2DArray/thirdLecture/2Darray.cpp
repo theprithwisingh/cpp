@@ -6,7 +6,6 @@ int main(){
     //vector<int>v; 1D array
     //vector< vector<int> >v; 2D array
    
-//    vector< vector<int> > v;
    vector<int> v1;
    v1.push_back(1);
    v1.push_back(2);

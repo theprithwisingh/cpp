@@ -13,7 +13,6 @@ int main(){
         cout<<endl;
     }
     cout<<endl;
-    cout<<v.size()<<endl;
+    cout<<v.size()<<endl;//number of columns
     cout<<v[2].size();
-    cout<<v[1][2];
 } 
