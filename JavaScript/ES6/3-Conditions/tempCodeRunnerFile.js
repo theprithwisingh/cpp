@@ -1,0 +1,1 @@
+Object.prototype.customProperty = 'This is a custom property';
