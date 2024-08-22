@@ -17,6 +17,10 @@ int main() {
         cout<<v[i]<<" ";
     }
     cout<<endl;
+    if (n>2)
+    {
+    }
+    
     bool flag = false;
     for (int i = 0; i < n-1; i++){
         for (int j = i+1; j < n; j++){
