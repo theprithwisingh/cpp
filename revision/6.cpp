@@ -19,6 +19,7 @@ int main() {
     cout<<endl;
     if (n>2)
     {
+        
     }
     
     bool flag = false;
