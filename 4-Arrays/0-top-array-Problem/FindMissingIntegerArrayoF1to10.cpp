@@ -6,7 +6,6 @@ for (int i = 0; i < v.size()-1; i++)
 {
     if(v[i]==v[i+1]){
        for (int j = 0; j < v[i+1]; j++)
-       {
         cout<<j<<"--";
        }
         
@@ -15,7 +14,6 @@ for (int i = 0; i < v.size()-1; i++)
     // else cout<<v[i+1];
 }
 
-}
 int main(){
 vector<int>v;
     v.push_back(1);
