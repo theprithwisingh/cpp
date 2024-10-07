@@ -24,10 +24,20 @@ int main(){
 */
 
 
+// #include<iostream>
+// #include<String>
+// using namespace std;
+// int main(){
+//     char str[]={'p','r','i','t','\0','h','w','i'};
+//     cout<<str<<endl;//prit
+// }
+
 #include<iostream>
 #include<String>
 using namespace std;
 int main(){
-    char str[]={'p','r','i','t','\0','h','w','i'};
-    cout<<str<<endl;//prit
+    string dynamicString = "HELLO" ;
+    dynamicString +=" PRITHWI";
+
+    cout<<dynamicString ;
 }
