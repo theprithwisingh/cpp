@@ -8,6 +8,7 @@ int main(){
     int n = 5;
     vector<int> v(n, 0); // 0 means not visited
     int x = 0;
+    
 
     // Original array
     cout << "Original array: ";
@@ -25,7 +26,7 @@ int main(){
         for (int j = 0; j < n; j++) {
             if (v[j] == 1) continue;
             else {
-                if (min > arr[j]) {  // Corrected this line
+                if (min > arr[j]) {
                     min = arr[j];
                     minIdx = j;
                 }
@@ -43,6 +44,5 @@ int main(){
         cout << arr[i] << " ";
     }
     cout << endl;
-
     return 0;
 }
