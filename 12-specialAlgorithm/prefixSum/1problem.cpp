@@ -58,6 +58,7 @@ int main() {
     return 0;
 }
 */
+/*
 #include<iostream>
 #include<vector>
 #include<climits>
@@ -94,4 +95,41 @@ int main(){
 
     cout<<"Answer : "<<canBePartitioned(v);
     
+}
+*/
+
+#include <iostream>
+#include <vector>
+using namespace std;
+
+bool canBePartitioned(vector<int>& arr) {
+    int n = arr.size();
+
+
+    int total_sum = 0;
+    for (int num : arr) {
+        total_sum += num;
+    }
+
+    int current_sum = 0;
+    for (int i = 0; i < n - 1; i++) {
+        current_sum += arr[i];
+        if (2 * current_sum == total_sum) {
+            return true; 
+        }
+    }
+
+    return false;
+}
+
+int main() {
+    vector<int> arr = {1, 2, 3, 4, 5, 5};
+
+    if (canBePartitioned(arr)) {
+        cout << "Yes, array can be partitioned into 2 continuous equal-sum parts." << endl;
+    } else {
+        cout << "No, array cannot be partitioned into 2 equal parts." << endl;
+    }
+
+    return 0;
 }

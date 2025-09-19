@@ -1,3 +1,5 @@
+//Skip a character
+//Remove all occurrences of ‘a’ from a string.
 /*
 // worst T.C
 #include <iostream>
